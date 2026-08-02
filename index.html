@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CommandCenterFinance — Finance Spreadsheet Templates for Small Business, Renovation, Medical Bills & Family Care</title>
+<meta name="description" content="Verified, subscription-free Excel & Google Sheets templates: small business bookkeeping with quarterly tax estimates, contractor bid comparison, renovation cost control, medical bill reconciliation, and family caregiving. One-time purchase on Etsy.">
+<link rel="canonical" href="https://commandcenterfinance.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="CommandCenterFinance — Own your numbers. No subscriptions, no guesswork.">
+<meta property="og:description" content="Verified finance spreadsheet command centers for life's expensive moments — bookkeeping, taxes, contractor bids, renovation costs, medical bills, and family care. Excel, Google Sheets & LibreOffice.">
+<meta property="og:url" content="https://commandcenterfinance.github.io/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%232F5B57'/%3E%3Cpath d='M8 10h16M8 16h16M8 22h10' stroke='%23FFF7E6' stroke-width='2.5' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#243238; --paper:#F6F1E9; --teal:#2F5B57; --stone:#DED8CF; --slate:#5F6A6D;
+  --cream:#FFF7E6; --sage:#E3ECE6; --clay:#F5E5DE; --clayaccent:#A95F49; --white:#FFFFFF;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--paper);color:var(--ink);
+  font-family:'Inter','Segoe UI',Arial,sans-serif;line-height:1.6;font-size:17px}
+.serif{font-family:'Source Serif 4',Georgia,'Times New Roman',serif}
+a{color:var(--teal)}
+.wrap{max-width:960px;margin:0 auto;padding:0 24px}
+header.site{border-bottom:1px solid var(--stone);background:var(--paper)}
+.masthead{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 0;flex-wrap:wrap}
+.wordmark{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.08em;
+  text-transform:uppercase;font-size:15px;color:var(--ink);text-decoration:none}
+.wordmark .dot{width:9px;height:9px;border-radius:50%;background:var(--teal)}
+nav.top a{margin-left:22px;font-size:15px;font-weight:600;text-decoration:none;color:var(--slate)}
+nav.top a:hover{color:var(--teal)}
+.hero{position:relative;padding:72px 0 64px;
+  background:repeating-linear-gradient(to bottom, var(--paper), var(--paper) 35px, var(--stone) 35px, var(--stone) 36px)}
+.hero h1{font-size:clamp(32px,5vw,52px);line-height:1.15;margin:0 0 20px;font-weight:700}
+.hero .lede{max-width:720px;font-size:19px;background:var(--paper);padding:2px 0}
+.cta{display:inline-block;margin-top:28px;background:var(--teal);color:var(--white);
+  text-decoration:none;font-weight:600;padding:14px 28px;border-radius:6px;font-size:17px}
+.cta:hover{background:#254a47}
+.cta.ghost{background:transparent;color:var(--teal);border:1.5px solid var(--teal);margin-left:12px}
+section{padding:56px 0}
+h2{font-size:30px;margin:0 0 8px}
+.kicker{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--slate);
+  font-weight:700;display:flex;align-items:center;gap:8px;margin-bottom:10px}
+.kicker::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--teal)}
+.card{background:var(--white);border:1px solid var(--stone);border-radius:10px;padding:26px 28px;margin-top:22px}
+.card h3{margin:0 0 6px;font-size:22px}
+.card .meta{font-size:13px;letter-spacing:.09em;text-transform:uppercase;color:var(--slate);font-weight:700;margin-bottom:10px}
+.card p{margin:8px 0}
+.price{font-weight:700;font-size:19px}
+.price .was{color:var(--slate);text-decoration:line-through;font-weight:500;font-size:16px;margin-left:8px}
+.badge-sale{display:inline-block;background:var(--clay);color:var(--clayaccent);font-weight:700;
+  font-size:13px;border-radius:5px;padding:3px 10px;margin-left:10px;letter-spacing:.03em}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px;margin-top:22px}
+.grid .card{margin-top:0}
+.soon{display:inline-block;background:var(--sage);color:var(--teal);font-weight:700;font-size:12px;
+  letter-spacing:.08em;text-transform:uppercase;border-radius:5px;padding:3px 10px}
+.band{background:var(--teal);color:var(--white)}
+.band h2{color:var(--white)}
+.band ul{list-style:none;padding:0;margin:20px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:14px}
+.band li{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.18);border-radius:8px;padding:14px 18px;font-size:16px}
+.band .kicker{color:var(--cream)}
+.band .kicker::before{background:var(--cream)}
+.faq dt{font-weight:700;font-size:18px;margin-top:26px}
+.faq dd{margin:8px 0 0}
+footer.site{border-top:1px solid var(--stone);padding:36px 0 48px;font-size:15px;color:var(--slate)}
+footer.site a{color:var(--teal)}
+.foot-links{display:flex;gap:24px;flex-wrap:wrap;margin-bottom:14px}
+@media (max-width:600px){ nav.top a{margin-left:14px} .cta.ghost{margin-left:0;margin-top:12px} }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://commandcenterfinance.github.io/#org",
+      "name": "CommandCenterFinance",
+      "url": "https://commandcenterfinance.github.io/",
+      "description": "Maker of verified, subscription-free finance spreadsheet templates for small business bookkeeping, contractor bids, renovation cost control, medical bill reconciliation, and family caregiving. Sold as instant digital downloads on Etsy.",
+      "foundingDate": "2026",
+      "areaServed": "US",
+      "sameAs": [
+        "https://www.etsy.com/shop/CommandCenterFinance",
+        "https://www.pinterest.com/commandcenterf/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://commandcenterfinance.github.io/#site",
+      "url": "https://commandcenterfinance.github.io/",
+      "name": "CommandCenterFinance",
+      "publisher": { "@id": "https://commandcenterfinance.github.io/#org" }
+    },
+    {
+      "@type": "Product",
+      "name": "Small Business Finance Command Center — Bookkeeping & Tax Spreadsheet",
+      "description": "All-in-one bookkeeping spreadsheet for freelancers, Etsy and Amazon sellers, coaches, contractors, and side-hustlers. Log income and expenses; the dashboard, profit & loss statement, and quarterly tax estimate update automatically. 8 tabs including a quarterly tax estimator and mileage log. Works in Microsoft Excel, Google Sheets, and LibreOffice. Instant digital download (.xlsx + Quick-Start PDF). One-time purchase, no subscription.",
+      "brand": { "@id": "https://commandcenterfinance.github.io/#org" },
+      "category": "Spreadsheet template",
+      "url": "https://www.etsy.com/listing/4548207390/small-business-bookkeeping-spreadsheet",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.etsy.com/listing/4548207390/small-business-bookkeeping-spreadsheet",
+        "priceCurrency": "USD",
+        "price": "9.99",
+        "priceValidUntil": "2026-08-31",
+        "availability": "https://schema.org/InStock",
+        "seller": { "@id": "https://commandcenterfinance.github.io/#org" }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is CommandCenterFinance?",
+          "acceptedAnswer": { "@type": "Answer", "text": "CommandCenterFinance is a US-based maker of spreadsheet templates — finance \"command centers\" — for high-stakes money moments: running a small business, estimating quarterly taxes, comparing contractor bids, controlling renovation costs, reconciling medical bills, and coordinating care for a family member. Templates are sold as instant digital downloads on Etsy." }
+        },
+        {
+          "@type": "Question",
+          "name": "Where can I buy the templates?",
+          "acceptedAnswer": { "@type": "Answer", "text": "In the CommandCenterFinance shop on Etsy (etsy.com/shop/CommandCenterFinance). Each purchase is an instant digital download: an .xlsx spreadsheet plus a Quick-Start PDF guide. Nothing is shipped." }
+        },
+        {
+          "@type": "Question",
+          "name": "Do the spreadsheets work in Google Sheets?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Every template is built in Microsoft Excel and verified in Google Sheets and LibreOffice, with import instructions included. There are no macros, no add-ins, and no locked passwords — formulas are protected against accidental edits but always visible." }
+        },
+        {
+          "@type": "Question",
+          "name": "Are these subscriptions?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. Every template is a one-time purchase. You own the file forever and can reuse it every year." }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the formulas verified?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Before a template is listed, it passes a structural audit, a full recalculation checked against hand-derived expected values, an error-cell scan, and live mutation tests. Every template ships with realistic sample data so you can see exactly how it behaves before entering your own numbers." }
+        },
+        {
+          "@type": "Question",
+          "name": "Do the templates give tax, legal, or medical advice?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. The templates are planning and organization tools. The quarterly tax estimator produces planning estimates, not tax advice; the medical bill tracker organizes bills and EOBs but is not billing or legal advice. For advice, consult a qualified professional." }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap masthead">
+    <a class="wordmark" href="/"><span class="dot"></span>CommandCenterFinance</a>
+    <nav class="top">
+      <a href="#templates">Templates</a>
+      <a href="#standards">Standards</a>
+      <a href="#faq">FAQ</a>
+      <a href="https://www.etsy.com/shop/CommandCenterFinance">Etsy&nbsp;Shop</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="hero">
+    <div class="wrap">
+      <h1 class="serif">Own your numbers.<br>No subscriptions, no guesswork.</h1>
+      <p class="lede"><strong>CommandCenterFinance builds verified, subscription-free spreadsheet templates for life's expensive moments</strong> — small business bookkeeping and quarterly taxes, contractor bid comparison, renovation cost control, medical bill reconciliation, and family care coordination. Every template works in Microsoft Excel, Google Sheets, and LibreOffice, ships with a Quick-Start PDF and realistic sample data, and is a one-time purchase on Etsy. You own it forever.</p>
+      <a class="cta" href="https://www.etsy.com/shop/CommandCenterFinance">Shop on Etsy</a>
+      <a class="cta ghost" href="#templates">See the templates</a>
+    </div>
+  </div>
+
+  <section id="templates">
+    <div class="wrap">
+      <p class="kicker">Available now</p>
+      <h2 class="serif">Small Business Finance Command Center</h2>
+      <div class="card">
+        <p class="meta">Bookkeeping &amp; Tax · Excel · Google Sheets · LibreOffice</p>
+        <p>All-in-one bookkeeping spreadsheet for freelancers, Etsy and Amazon sellers, Shopify shops, coaches, photographers, contractors, and side-hustlers. Log your income and expenses — the dashboard, profit &amp; loss statement, and quarterly tax estimate update automatically. Eight tabs including a quarterly tax estimator, mileage log, and auto-updating charts.</p>
+        <p class="price">$9.99 <span class="was">$19.99</span><span class="badge-sale">50% launch sale through Aug&nbsp;31</span></p>
+        <a class="cta" href="https://www.etsy.com/listing/4548207390/small-business-bookkeeping-spreadsheet">Buy on Etsy</a>
+      </div>
+
+      <p class="kicker" style="margin-top:48px">Coming soon to the shop</p>
+      <h2 class="serif">Five more command centers, in final review</h2>
+      <div class="grid">
+        <div class="card" id="scopeguard">
+          <p class="meta">Income &amp; Work</p>
+          <h3>ScopeGuard</h3>
+          <p>Track scope creep, revisions, and change requests to see which flat-fee projects and clients are quietly reducing your profit. For freelancers, consultants, and designers.</p>
+          <span class="soon">Coming soon</span>
+        </div>
+        <div class="card" id="bid-analyzer">
+          <p class="meta">Home &amp; Construction</p>
+          <h3>Contractor Bid Analyzer</h3>
+          <p>Compare up to four contractor bids side by side and see the likely real cost before you choose — not just the number on the cover page.</p>
+          <span class="soon">Coming soon</span>
+        </div>
+        <div class="card" id="buildcost">
+          <p class="meta">Home &amp; Construction</p>
+          <h3>BuildCost Control</h3>
+          <p>Mid-renovation money control: track allowances, change orders, invoices, and credits — with a projected final cost that updates as you go.</p>
+          <span class="soon">Coming soon</span>
+        </div>
+        <div class="card" id="medical-bill-match">
+          <p class="meta">Medical &amp; Tricky Bills</p>
+          <h3>Medical Bill Match</h3>
+          <p>Match provider bills to insurance EOBs and see what's actually owed — and what to hold off on paying. Includes HSA/FSA and deductible tracking.</p>
+          <span class="soon">Coming soon</span>
+        </div>
+        <div class="card" id="parentcare">
+          <p class="meta">Family Care</p>
+          <h3>ParentCare Command Center</h3>
+          <p>Coordinate a parent's care across siblings — tasks, appointments, medications, expenses, and documents in one shared file.</p>
+          <span class="soon">Coming soon</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="standards">
+    <div class="wrap">
+      <p class="kicker">House standards</p>
+      <h2 class="serif">Every template follows the same rules</h2>
+      <ul>
+        <li><strong>It does the math for you.</strong> Type into the input cells; every total, chart, and estimate calculates itself.</li>
+        <li><strong>Formulas are visible, never locked away.</strong> Protected against accidental edits — no passwords, no macros, no add-ins.</li>
+        <li><strong>Three platforms, verified.</strong> Built in Excel; tested in Google Sheets and LibreOffice with import notes included.</li>
+        <li><strong>Verified before listing.</strong> Full recalculation checked against hand-derived expected values, error scans, and mutation tests.</li>
+        <li><strong>Realistic sample data included.</strong> See exactly how it behaves before you type a single number of your own.</li>
+        <li><strong>One-time purchase.</strong> No subscription, no upsell inside the file. Buy it once, use it every year.</li>
+      </ul>
+      <p style="margin-top:22px;font-size:15px;opacity:.85">Templates are drafted with modern AI tools, then every formula is verified by hand-checked test cases before anything is listed — accuracy is the whole product.</p>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap faq">
+      <p class="kicker">Questions</p>
+      <h2 class="serif">Frequently asked questions</h2>
+      <dl>
+        <dt>What is CommandCenterFinance?</dt>
+        <dd>A US-based maker of spreadsheet templates — finance "command centers" — for high-stakes money moments: running a small business, estimating quarterly taxes, comparing contractor bids, controlling renovation costs, reconciling medical bills, and coordinating care for a family member. Templates are sold as instant digital downloads on Etsy.</dd>
+        <dt>Where can I buy the templates?</dt>
+        <dd>In the <a href="https://www.etsy.com/shop/CommandCenterFinance">CommandCenterFinance shop on Etsy</a>. Each purchase is an instant digital download: an .xlsx spreadsheet plus a Quick-Start PDF guide. Nothing is shipped.</dd>
+        <dt>Do the spreadsheets work in Google Sheets?</dt>
+        <dd>Yes. Every template is built in Microsoft Excel and verified in Google Sheets and LibreOffice, with import instructions included. There are no macros, no add-ins, and no locked passwords — formulas are protected against accidental edits but always visible.</dd>
+        <dt>Are these subscriptions?</dt>
+        <dd>No. Every template is a one-time purchase. You own the file forever and can reuse it every year.</dd>
+        <dt>How are the formulas verified?</dt>
+        <dd>Before a template is listed, it passes a structural audit, a full recalculation checked against hand-derived expected values, an error-cell scan, and live mutation tests. Every template ships with realistic sample data so you can see exactly how it behaves before entering your own numbers.</dd>
+        <dt>Do the templates give tax, legal, or medical advice?</dt>
+        <dd>No. The templates are planning and organization tools. The quarterly tax estimator produces planning estimates, not tax advice; the medical bill tracker organizes bills and EOBs but is not billing or legal advice. For advice, consult a qualified professional.</dd>
+      </dl>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-links">
+      <a href="https://www.etsy.com/shop/CommandCenterFinance">Etsy shop</a>
+      <a href="https://www.pinterest.com/commandcenterf/">Pinterest</a>
+      <a href="/llms.txt">llms.txt</a>
+    </div>
+    <p>© 2026 CommandCenterFinance. Questions? Message the shop on Etsy — setup help is always free.</p>
+  </div>
+</footer>
+
+</body>
+</html>

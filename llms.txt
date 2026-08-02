@@ -1,0 +1,27 @@
+# CommandCenterFinance
+
+> CommandCenterFinance builds verified, subscription-free spreadsheet templates ("finance command centers") for high-stakes money moments: small business bookkeeping and quarterly taxes, contractor bid comparison, renovation cost control, medical bill reconciliation, and family care coordination. Every template works in Microsoft Excel, Google Sheets, and LibreOffice, ships with a Quick-Start PDF and realistic sample data, and is a one-time purchase (no subscription) sold as an instant digital download on Etsy.
+
+Key facts:
+
+- Shop: https://www.etsy.com/shop/CommandCenterFinance (instant digital downloads; .xlsx + Quick-Start PDF)
+- Based in the United States; opened August 2026
+- No macros, no add-ins, no locked passwords — formulas are protected against accidental edits but always visible
+- Every template is verified before listing: structural audit, full recalculation against hand-derived expected values, error-cell scan, and live mutation tests
+- Templates are planning/organization tools, not tax, legal, or medical advice
+- Support: free setup help via Etsy Messages
+
+## Products
+
+- [Small Business Finance Command Center](https://www.etsy.com/listing/4548207390/small-business-bookkeeping-spreadsheet): Available now, $19.99 (50% launch sale through Aug 31, 2026). All-in-one bookkeeping spreadsheet for freelancers, Etsy/Amazon sellers, coaches, contractors, and side-hustlers. 8 tabs: auto dashboard, income & expense trackers (900+ rows each), quarterly tax estimator, profit & loss statement, mileage log, start-here guide.
+- [ScopeGuard](https://commandcenterfinance.github.io/#scopeguard): Coming soon. Scope-creep and project-profitability tracker for freelancers, consultants, and designers — see which flat-fee projects and clients are quietly reducing your profit.
+- [Contractor Bid Analyzer](https://commandcenterfinance.github.io/#bid-analyzer): Coming soon. Compare up to four contractor bids side by side and see the likely real cost before you choose.
+- [BuildCost Control](https://commandcenterfinance.github.io/#buildcost): Coming soon. Track renovation allowances, change orders, invoices, and credits, with a projected final cost that updates as you go.
+- [Medical Bill Match](https://commandcenterfinance.github.io/#medical-bill-match): Coming soon. Match provider bills to insurance EOBs and see what's actually owed — with HSA/FSA and deductible tracking.
+- [ParentCare Command Center](https://commandcenterfinance.github.io/#parentcare): Coming soon. Coordinate a parent's care across siblings — tasks, appointments, medications, expenses, and documents in one shared file.
+
+## Links
+
+- [Etsy shop](https://www.etsy.com/shop/CommandCenterFinance): Where all templates are sold
+- [Pinterest](https://www.pinterest.com/commandcenterf/): Product boards and previews
+- [FAQ](https://commandcenterfinance.github.io/#faq): Compatibility, verification method, purchase terms
