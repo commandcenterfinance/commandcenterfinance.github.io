@@ -430,5 +430,16 @@ footer.site a{color:var(--teal)}
   </div>
 </footer>
 
+<!-- GoatCounter: cookieless, aggregate-only visit counting. No cookies, no personal data,
+     no consent banner needed. Outbound Etsy clicks are tagged per listing so the dashboard
+     shows which product cards convert. Dashboard: https://commandcenterfinance.goatcounter.com -->
+<script>
+  document.querySelectorAll('a[href*="etsy.com"]').forEach(function (a) {
+    var slug = a.href.match(/listing\/\d+\/([a-z0-9-]+)/);
+    a.setAttribute('data-goatcounter-click', slug ? 'etsy-' + slug[1] : 'etsy-shop');
+  });
+</script>
+<script data-goatcounter="https://commandcenterfinance.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
 </body>
 </html>
